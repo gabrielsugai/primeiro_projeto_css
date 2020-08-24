@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 3px 3px 5px #333;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.hero nav a{
+    background-color: rgba(0,0,0, 0.3);
+    padding: 15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0, 0.7);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.article-title{
+    background-color: rgb(192, 192, 192);
+    border-bottom: 3px solid rgb(82, 80, 80);
+    padding: 10px;
+}
+
+.page-footer{
+    height: 80px;
+    line-height: 80px;
+    margin-top: 15px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+.card {
+    display: inline-block;
+    margin-left: 20px;
+}
