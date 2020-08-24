@@ -35,5 +35,17 @@ main{
 }
 
 .article-title{
-    border-bottom: #333;
+    background-color: rgb(192, 192, 192);
+    border-bottom: 3px solid rgb(82, 80, 80);
+    padding: 10px;
+}
+
+.page-footer{
+    height: 80px;
+    margin-top: 15px;
+    line-height: 80px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
 }
